@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="index.css">
+  <style>
+    h3, p {
+      margin: 0;
+    }
+
+    .card-container {
+      display: flex; 
+      justify-content: space-between; 
+      width: 100%;
+      background-color: lightgrey;
+    }
+
+    .card {
+      width: 18%;
+      padding: 10px;
+      height: 100%;
+    }
+
+    .card-red {
+      border: 2px solid red;
+    }
+
+    .card-blue {
+      border: 2px solid blue;
+    }
+
+    .card-green {
+      border: 2px solid green;
+      border-radius: 10px;
+    }
+
+    .card-yellow {
+      border: 2px solid orange;
+    }
+
+    .card-purple {
+      border: 4px solid purple;
+    }
+
+    .card h3 {
+      color: black;
+    }
+
+    .cards-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
   <h1>Practice Problems Webpage</h1>
-  <p>All your solutions for this set of practice problems are located in the Replit console.  Please open the console by clicking the wrench icon near the top-right corner of this browser.
-  </p>
-  <div style="display: flex; justify-content: space-between; width: 100%; background-color: lightgrey;">
-    <div style="width: 18%; padding: 10px; border: 2px solid red;">
-        <h3 style="color: black;">Card 1</h3>
-        <p>This is the content of Card 1.</p>
+  <p>All your solutions for this set of practice problems are located in the Replit console.  Please open the console by clicking the wrench icon near the top-right corner of this browser.</p>
+  <div class="card-container">
+    <div class="card card-red">
+      <h3>Card 1</h3>
+      <p>This is the content of Card 1.</p>
     </div>
-    <div style="width: 18%; padding: 10px; border: 2px solid blue;">
-        <h3 style="color: black;">Card 2</h3>
-        <p>This is the content of Card 2.</p>
+    <div class="card card-blue">
+      <h3>Card 2</h3>
+      <p>This is the content of Card 2.</p>
     </div>
-    <div style="width: 18%; padding: 10px; border: 2px solid green; border-radius: 10px;">
-        <h3 style="color: black;">Card 3</h3>
-        <p>This is the content of Card 3.</p>
+    <div class="card card-green">
+      <h3>Card 3</h3>
+      <p>This is the content of Card 3.</p>
     </div>
-    <div style="width: 18%; padding: 10px; border: 2px solid orange;">
-        <h3 style="color: black;">Card 4</h3>
-        <p>This is the content of Card 4.</p>
+    <div class="card card-yellow">
+      <h3>Card 4</h3>
+      <p>This is the content of Card 4.</p>
     </div>
-    <div style="width: 18%; padding: 10px; border: 4px solid purple;">
-        <h3 style="color: black;">Card 5</h3>
-        <p>This is the content of Card 5.</p>
+    <div class="card card-purple">
+      <h3>Card 5</h3>
+      <p>This is the content of Card 5.</p>
     </div>
   </div>
   <script>
